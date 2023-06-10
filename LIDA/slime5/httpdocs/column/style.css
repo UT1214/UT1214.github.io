@@ -1,0 +1,121 @@
+.header .allheader {
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.headerleft {
+    text-align: left;
+    display: inline-block;
+}
+.headerleft h1 {
+    display: inline-block;
+}
+.headerleft h2 {
+    font-size: 16pt;
+    display: inline-block;
+    line-height: 1.7;
+    font-weight: inherit;
+    margin: 0;
+    vertical-align: middle;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+.headerleft h2 span {
+    display: block;
+    color: #0D6EB8;
+}
+.click{
+    color: white !important;
+}
+.article-title {
+    margin-bottom: 0.5rem;
+    color: #bf2a2a;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 0 10px;
+}
+.article-text {
+    font-size: 11pt;
+    margin: 0;
+    color: #333;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+.article{
+    text-decoration:none;
+}
+.article:hover{
+    font-weight: bold;
+}
+.py-5 {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+.tit{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-txt{
+    color: #333 !important;
+}
+.nav-txt:hover{
+    color: #ff7e91 !important;
+}
+
+
+
+
+.footertop {
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+}
+.widget-title h5 {
+    margin-top: 20pt;
+    color: #333!important;
+    font-size: 14px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footertop ul li {
+    line-height: 2!important;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footertop a {
+    color: #0D6EB8!important;
+    line-height: 18pt;
+    text-decoration: none;
+}
+.footertop div div ul div div li a i {
+    margin-right: 8px;
+}
+.credit {
+    background: #2f2f2f;
+    border-top: 1px solid #292929;
+    -moz-box-shadow: inset 0px 3px 0px rgba(44, 44, 44, 1);
+    -webkit-box-shadow: inset 0px 3px 0px rgba(44, 44, 44, 1);
+    box-shadow: inset 0px 3px 0px rgba(44, 44, 44, 1);
+    color: #777;
+    font-size: 12px;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.wd1280 {
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto!important;
+}
+.credit ul li {
+    display: inline-block;
+}
+.credit a {
+    color: #BFBFBF!important;
+    font-size: 12px;
+}
+

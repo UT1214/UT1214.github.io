@@ -1,0 +1,210 @@
+::selection {
+    background: #1c3f55;
+    color: white;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255);
+    border-color: rgb(255 255 255) !important;
+    background-color: aliceblue !important;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: 0.125rem !important;
+}
+.bg1 {
+    color: #fff!important;
+    background-color: #1c3f55!important;
+}
+.bg1:hover {
+    border:3px #868686 solid;
+    font-weight: bold;
+}
+.bg2 {
+    color: #1c3f55!important;
+    background-color: #f8f9fa!important;
+}
+.bg2:hover {
+    border:3px #1c3f55 solid !important;
+    font-weight: bold;
+}
+.txt {
+    color: #1c3f55;
+}
+
+.pic2 {
+    overflow: hidden;
+}
+.pic2 img {
+    max-width: 100%;
+}
+.pic2 img:hover {
+    transform: scale(1.09);
+    transition: 0.5s;
+}
+.text-bg-dark {
+    color: #fff!important;
+    background-image: url("../images/index-1.jpg");
+    max-width: 100%;
+}
+.text-bg-dark:hover {
+    transform: scale(1.06);
+    transition: 1s;
+}
+.lattice {
+    align-items: flex-start!important;
+    border-bottom: #dfdfdf 2px solid;
+}
+
+.btnn {
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid rgb(28 63 85);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.btnn span {
+    color: rgb(28 63 85);
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.btn1:hover .t1 {
+    border-bottom: 120px solid #cacaca;
+    transition: all 0.5s;
+}
+.btn1:hover .t2 {
+    border-top: 80px solid #cacaca;
+    transition: all 0.5s;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.t1 {
+    border-bottom: 0px solid #fff;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    bottom: 0;
+    opacity: 0.3;
+    transition: all 0.5s;
+}
+
+.t2 {
+    border-top: 0px solid #fff;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    top: 0;
+    opacity: 0.3;
+    transition: all 0.5s;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 30%; /* 此為地圖長寬比 */
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.w-600px {
+    max-width: 600px;
+}
+.dropdown-menu {
+    margin: 4rem auto !important;
+}
+.btn-hover-light {
+    background-color: var(--bs-white) !important;
+}
+.btn-hover-light:hover, .btn-hover-light:focus {
+    color: var(--bs-blue) !important;
+    background-color: var(--bs-light) !important;
+}
+
+.card-content {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color: #1c3f55d6;
+    color: white;
+}
+.introduce {
+    font-weight: 400!important;
+    color: #1c3f55;
+    font-size: 28px;
+}
+.lead {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+.g-5, .gx-5 {
+    --bs-gutter-x: 0rem !important;
+}
+
+
+@media only screen and (max-width: 600px){
+    .logo{
+        display: none;
+    }
+    .logo-phone{
+        display: block;
+    }
+}
+@media only screen and (min-width: 600px){
+    .logo{
+        display: block;
+    }
+    .logo-phone{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px){
+    .logo{
+        display: block;
+    }
+    .logo-phone{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px){
+    .logo{
+        display: block;
+    }
+    .logo-phone{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .logo{
+        display: block;
+    }
+    .logo-phone{
+        display: none;
+    }
+}
+.title-box{
+    background-color: #1c3f55 !important;
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-txt{
+    color: #fff !important;
+}
+.nav-txt:hover{
+    color: #3a6d8d !important;
+}
